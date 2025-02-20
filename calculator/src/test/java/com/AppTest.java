@@ -27,6 +27,19 @@ public class AppTest
     {
         return new TestSuite( AppTest.class );
     }
+    package com.example.tests;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class CalculatorTest {
+    @Test
+    public void testAddition() {
+        int result = 1 + 2; // or call your calculator method
+        Assert.assertEquals(result, 3);
+    }
+}
+
 
     /**
      * Rigourous Test :-)
