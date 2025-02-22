@@ -2,7 +2,7 @@
 <suite name="CalculatorSuite">
   <test name="CalculatorTests">
     <classes>
-      <class name="com.example.tests.CalculatorTest"/>
+      <class name="com.example.test.CalculatorTest"/>
     </classes>
   </test>
 </suite>
